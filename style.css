@@ -41,6 +41,7 @@ p {
   margin: 1.5rem 0;
   padding-left: 1rem;
   border-left: 3px solid #4a7c59;
+  line-height: 1.7;
 }
 .quote footer {
   margin-top: 0.5rem;
