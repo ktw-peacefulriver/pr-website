@@ -48,4 +48,31 @@ p {
   font-size: 0.95rem;
   color: #777;
 }
+.main-container {
+  padding: 1.5rem;              /* same as p-6 */
+  max-width: 48rem;             /* same as max-w-3xl */
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255, 255, 255, 0.9); /* white with 90% opacity */
+  border-radius: 0.75rem;       /* same as rounded-xl */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* same as shadow-md */
+}
+
+/* Optional: add spacing between list items inside the container */
+.main-container ul {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.main-container ul li {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.125rem;          /* same as text-lg */
+  list-style-type: disc;
+  list-style-position: inside;
+}
+<nav class="bg-white bg-opacity-75 p-4 shadow-md text-center">
+  <a href="index.html" class="text-blue-600 hover:underline mx-4">Home</a>
+  <a href="resources.html" class="text-blue-600 hover:underline mx-4">Resources</a>
+</nav>
 
