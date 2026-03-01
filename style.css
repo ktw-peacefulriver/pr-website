@@ -71,8 +71,57 @@ p {
   list-style-type: disc;
   list-style-position: inside;
 }
-<nav class="bg-white bg-opacity-75 p-4 shadow-md text-center">
-  <a href="index.html" class="text-blue-600 hover:underline mx-4">Home</a>
-  <a href="resources.html" class="text-blue-600 hover:underline mx-4">Resources</a>
-</nav>
 
+.coming-soon {
+  margin-top: 20px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.event-details {
+  background: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.cta {
+  margin-top: 25px;
+  font-weight: 600;
+}
+
+.event-image {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 8px;
+  margin: 15px 0 25px;
+  height: auto;
+  display: block;
+}
+
+.event-details dt {
+  font-weight: 700;
+  margin-top: 12px;
+}
+
+.event-details dd {
+  margin: 4px 0 0 0;
+}
+
+.event-intro {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 18px;
+}
+
+.event-subtitle {
+  font-size: 1.2rem;
+  color: #4a7c59;
+  margin-top: -8px;
+  margin-bottom: 10px;
+}
+
+.main-nav .nav-link[href="event.html"] {
+  font-weight: 700;
+  text-decoration: underline;
+}
