@@ -133,8 +133,8 @@ p {
 }
 
 .event-header .event-image {
-  width: 45%;
-  max-width: 400px;
+  width: 55%;
+  max-width: 520px;
   margin: 0;
 }
 
@@ -144,7 +144,7 @@ p {
 }
 
 .event-image-wrapper {
-  flex: 0 0 380px; /* fixed visual width */
+  flex: 0 0 480px; /* fixed visual width */
 }
 
 .event-intro-wrapper {
