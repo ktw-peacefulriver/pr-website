@@ -91,12 +91,9 @@ p {
 }
 
 .event-image {
-  width: 50%;
-  max-width: 450px;
-  border-radius: 8px;
-  margin: 15px 0 25px;
-  height: auto;
-  display: block;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 .event-details dt {
@@ -109,9 +106,9 @@ p {
 }
 
 .event-intro {
-  font-size: 1.05rem;
-  line-height: 1.7;
-  margin-bottom: 18px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin: 0;
 }
 
 .event-subtitle {
@@ -129,8 +126,10 @@ p {
 .event-header {
   display: flex;
   align-items: center;
-  gap: 30px;
-  margin: 20px 0 30px;
+  gap: 40px;
+  margin: 30px 0 40px;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  padding-bottom: 30px;
 }
 
 .event-header .event-image {
@@ -142,4 +141,25 @@ p {
 .event-header .event-intro {
   flex: 1;
   margin: 0;
+}
+
+.event-image-wrapper {
+  flex: 0 0 380px; /* fixed visual width */
+}
+
+.event-intro-wrapper {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .event-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .event-image-wrapper {
+    flex: none;
+    width: 85%;
+  }
 }
