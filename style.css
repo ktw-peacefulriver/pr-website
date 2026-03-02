@@ -125,3 +125,21 @@ p {
   font-weight: 700;
   text-decoration: underline;
 }
+
+.event-header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 20px 0 30px;
+}
+
+.event-header .event-image {
+  width: 45%;
+  max-width: 400px;
+  margin: 0;
+}
+
+.event-header .event-intro {
+  flex: 1;
+  margin: 0;
+}
