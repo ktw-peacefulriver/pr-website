@@ -144,7 +144,7 @@ p {
 }
 
 .event-image-wrapper {
-  flex: 0 0 480px; /* fixed visual width */
+  flex: 0 0 460px; /* fixed visual width */
 }
 
 .event-intro-wrapper {
